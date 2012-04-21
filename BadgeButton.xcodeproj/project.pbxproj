@@ -15,6 +15,9 @@
 		1FC1214315429DE900CF4D7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1214215429DE900CF4D7A /* AppDelegate.m */; };
 		1FC1214615429DE900CF4D7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1214515429DE900CF4D7A /* ViewController.m */; };
 		1FC1214915429DE900CF4D7A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC1214715429DE900CF4D7A /* ViewController.xib */; };
+		1FC1215615429FBB00CF4D7A /* button-badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC1215315429FBB00CF4D7A /* button-badge.png */; };
+		1FC1215715429FBB00CF4D7A /* cell-bg-hl.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC1215415429FBB00CF4D7A /* cell-bg-hl.png */; };
+		1FC1215815429FBB00CF4D7A /* cell-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC1215515429FBB00CF4D7A /* cell-bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,18 @@
 		1FC1213215429DE900CF4D7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1FC1213415429DE900CF4D7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FC1213615429DE900CF4D7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1FC1213A15429DE900CF4D7A /* BadgeButton-Info.plist */ = {isa = PBXFileReference; path = "BadgeButton-Info.plist"; sourceTree = "<group>"; };
+		1FC1213A15429DE900CF4D7A /* BadgeButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BadgeButton-Info.plist"; sourceTree = "<group>"; };
 		1FC1213C15429DE900CF4D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FC1213E15429DE900CF4D7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1FC1214015429DE900CF4D7A /* BadgeButton-Prefix.pch */ = {isa = PBXFileReference; path = "BadgeButton-Prefix.pch"; sourceTree = "<group>"; };
-		1FC1214115429DE900CF4D7A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FC1214015429DE900CF4D7A /* BadgeButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BadgeButton-Prefix.pch"; sourceTree = "<group>"; };
+		1FC1214115429DE900CF4D7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FC1214215429DE900CF4D7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1FC1214415429DE900CF4D7A /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1FC1214415429DE900CF4D7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1FC1214515429DE900CF4D7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1FC1214815429DE900CF4D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		1FC1215315429FBB00CF4D7A /* button-badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-badge.png"; sourceTree = "<group>"; };
+		1FC1215415429FBB00CF4D7A /* cell-bg-hl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell-bg-hl.png"; sourceTree = "<group>"; };
+		1FC1215515429FBB00CF4D7A /* cell-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell-bg.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		1FC1213915429DE900CF4D7A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1FC1215315429FBB00CF4D7A /* button-badge.png */,
+				1FC1215415429FBB00CF4D7A /* cell-bg-hl.png */,
+				1FC1215515429FBB00CF4D7A /* cell-bg.png */,
 				1FC1213A15429DE900CF4D7A /* BadgeButton-Info.plist */,
 				1FC1213B15429DE900CF4D7A /* InfoPlist.strings */,
 				1FC1213E15429DE900CF4D7A /* main.m */,
@@ -150,6 +159,9 @@
 			files = (
 				1FC1213D15429DE900CF4D7A /* InfoPlist.strings in Resources */,
 				1FC1214915429DE900CF4D7A /* ViewController.xib in Resources */,
+				1FC1215615429FBB00CF4D7A /* button-badge.png in Resources */,
+				1FC1215715429FBB00CF4D7A /* cell-bg-hl.png in Resources */,
+				1FC1215815429FBB00CF4D7A /* cell-bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +286,7 @@
 				1FC1214E15429DE900CF4D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
